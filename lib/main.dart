@@ -1,6 +1,8 @@
 import 'dart:convert';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:whatsapp/login.dart';
 import 'package:whatsapp/models/animated/twinAnimated.dart';
 import 'package:whatsapp/models/animation.dart';
 import 'package:whatsapp/calls.dart';
@@ -11,7 +13,9 @@ import 'package:whatsapp/newmodel.dart';
 import 'package:whatsapp/status.dart';
 import 'package:whatsapp/statusmodel.dart';
 
-void main(List<String> args) {
+void main(List<String> args) async{
+  WidgetsFlutterBinding.ensureInitialized();
+ await Firebase.initializeApp();
   runApp(Myapp());
 }
 
@@ -20,7 +24,7 @@ class Myapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: WelcomeScreen());
+    return MaterialApp(home: LoginScreen());
   }
 }
 

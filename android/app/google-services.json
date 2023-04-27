@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556357284996",
+    "project_id": "instagram-bcd1a",
+    "storage_bucket": "instagram-bcd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556357284996:android:4ccfa6948d2af3f0ffbed1",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556357284996-i3uv1n0ka884hqrlnt5vavhivjgq2uiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhIjrqLd0bfUJwRLySlUEvW1bEU5HKFK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556357284996-i3uv1n0ka884hqrlnt5vavhivjgq2uiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
